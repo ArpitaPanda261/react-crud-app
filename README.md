@@ -3,10 +3,11 @@
 A simple React-based CRUD application to manage user data with a focus on clean architecture, extensibility, and proper API handling.
 
 ## Live Demo
-(Add your deployed link here)
+
+
 
 ## GitHub Repository
-(Add your GitHub repo link here)
+https://github.com/ArpitaPanda261/react-crud-app
 
 ---
 
@@ -41,8 +42,7 @@ A simple React-based CRUD application to manage user data with a focus on clean 
 ### Extensibility (Important)
 The form is **configuration-driven**.
 
-All fields are defined in:
-
+All fields are defined in: [src/config/formConfig.ts](src/config/formConfig.ts#L1-L50)
 
 To add a new field (example: Date of Birth):
 

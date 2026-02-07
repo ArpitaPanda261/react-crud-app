@@ -15,8 +15,9 @@ export const userFormFields = [
     required: true,
     type: "tel",
     pattern: {
-      value: /^[0-9\s+()-]+$/,
-      message: "Phone number should contain only digits, spaces, +, -, or parentheses",
+      // allow common formatting but require exactly 10 digits total
+      value: /^(?=(?:.*\d){10}$)[\d\s()+-]+$/,
+      message: "Phone number must contain exactly 10 digits",
     },
   },
   {
