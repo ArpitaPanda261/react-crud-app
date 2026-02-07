@@ -15,46 +15,9 @@ body {
 }
 
 #root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-}
-
-.app-container {
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.app-title {
-  color: white;
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.status-text {
-  padding: 1rem;
-  border-radius: 8px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.status-text.error {
-  background: #fee;
-  color: #c00;
-  border: 1px solid #fcc;
-}
-
-.status-text:not(.error) {
-  background: #efe;
-  color: #060;
-  border: 1px solid #cfc;
+  padding: 2rem;
 }
 
 /* Form Styles */
@@ -63,9 +26,11 @@ body {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .user-form h3 {
